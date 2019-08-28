@@ -210,6 +210,40 @@ p {
   margin-top: 50px;
   padding-top: 1rem;
 }
+.home .search {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 50px;
+  align-items: baseline;
+}
+.home .search a {
+  text-decoration: none;
+  color: black;
+}
+.home .cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  border: 1px solid black;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .cards .card {
+  width: 300px;
+  height: 350px;
+  background: green;
+  margin: 40px;
+}
+.home .cards .card .img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
 .home .more-info-section {
   display: flex;
   flex-direction: column;
