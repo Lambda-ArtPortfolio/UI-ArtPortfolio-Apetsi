@@ -3,6 +3,13 @@
   display: flex;
   justify-content: space-between;
 
+  @media @mobileScreenSize {
+    color: green;
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+
   a {
     text-decoration: none;
     color: black;
@@ -18,11 +25,22 @@
     font-size: 1.2rem;
     font-weight: bold;
 
-    @media mobileScreenSize {
-      color: green;
-      border: 2px solid red;
+    @media @mobileScreenSize {
+      padding-top: 30px;
       display: flex;
-      flex-direction: column;
+      justify-content: space-around;
+      width: 200px;
     }
+
+    // .nav-links {
+    //   @media @mobileScreenSize {
+    //     color: green;
+    //     border: 2px solid red;
+    //     display: flex;
+    //     width: 200px;
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    //   }
+    // }
   }
 }
