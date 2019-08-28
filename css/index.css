@@ -150,6 +150,17 @@ hr {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+  }
+}
 .nav {
   padding: 40px;
   display: flex;
@@ -168,6 +179,14 @@ hr {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: bold;
+}
+@media mobileScreenSize {
+  .nav .nav-items {
+    color: green;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+  }
 }
 .footer {
   display: flex;

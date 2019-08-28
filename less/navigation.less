@@ -3,10 +3,6 @@
   display: flex;
   justify-content: space-between;
 
-  #brand-logo {
-    // color: red;
-  }
-
   a {
     text-decoration: none;
     color: black;
@@ -21,5 +17,12 @@
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: bold;
+
+    @media mobileScreenSize {
+      color: green;
+      border: 2px solid red;
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
