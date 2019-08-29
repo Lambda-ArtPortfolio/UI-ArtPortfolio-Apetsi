@@ -251,6 +251,9 @@ hr {
   margin-right: 50px;
   align-items: baseline;
 }
+.home .search .fa {
+  transform: translateX(30px);
+}
 @media (max-width: 500px) {
   .home .search {
     width: 90%;
