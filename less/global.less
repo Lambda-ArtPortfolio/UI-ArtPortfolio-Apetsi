@@ -1,0 +1,41 @@
+// General Styles
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+hr {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+
+  @media @mobileScreenSize {
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+  }
+}
