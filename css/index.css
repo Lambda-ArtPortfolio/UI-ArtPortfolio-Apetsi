@@ -254,7 +254,9 @@ hr {
 }
 @media (max-width: 500px) {
   .home .search {
-    width: 100%;
+    width: 90%;
+    text-align: center;
+    margin-left: 20px;
   }
 }
 .home .search a {
@@ -376,7 +378,6 @@ hr {
 }
 @media (max-width: 500px) {
   .home .more-info-section .more-info .more-info-text {
-    color: green;
     width: 100%;
     padding: 25px;
   }
