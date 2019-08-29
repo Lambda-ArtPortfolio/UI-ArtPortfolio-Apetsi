@@ -124,8 +124,17 @@
       line-height: 2;
       margin-right: 200px;
 
+      @media @mobileScreenSize {
+        width: 350px;
+        margin: 0 auto;
+      }
+
       hr {
         padding: 0;
+        
+        @media @mobileScreenSize {
+          display: none;
+        }
       }
 
       p {

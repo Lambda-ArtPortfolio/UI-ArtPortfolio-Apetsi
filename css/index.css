@@ -338,8 +338,19 @@ hr {
   line-height: 2;
   margin-right: 200px;
 }
+@media (max-width: 500px) {
+  .home .artist .artist-bio {
+    width: 350px;
+    margin: 0 auto;
+  }
+}
 .home .artist .artist-bio hr {
   padding: 0;
+}
+@media (max-width: 500px) {
+  .home .artist .artist-bio hr {
+    display: none;
+  }
 }
 .home .artist .artist-bio p {
   line-height: 2;
